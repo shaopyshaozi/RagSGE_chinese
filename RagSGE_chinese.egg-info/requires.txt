@@ -1,0 +1,12 @@
+openai
+langchain
+langchain-openai
+python-dotenv
+elasticsearch==8.8.2
+tqdm
+scipy
+tiktoken
+pandas
+datasets
+ragas
+openpyxl
