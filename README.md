@@ -7,10 +7,13 @@ Retrieval Augmented Generation for context Sortation, ground_truth Generation, a
 2. 针对问题和背景资料生成一个标准答案（GPT-4生成），该标准答案可用于后序评估
 3. 使用开源的RAGAs评价系统，生成四个分数，分别是`Answer_relevancy`, `Faithfulness`, `Context_recall`, `Context_precision`, 具体信息详见 [RAGAs使用指南](https://github.com/explodinggradients/ragas)
 
-### 评测系统使用说明，请详见 [评测系统使用说明](#评测系统使用说明)
-### 评测系统介绍，请详见 [评测系统介绍](#评测系统介绍)
+## :shield: Installation
 
-## 评测系统使用说明
+```bash
+pip install RagSGE_chinese
+```
+
+## :fire: Quickstart
 
 ```python
 from RagSGE_chinese import sort, generate, evaluate
@@ -23,6 +26,13 @@ ground_truth = generate(question_list,contexts_list)                            
 scores = evaluate(question_list,contexts_list,answer_list,ground_truth_list)        # step 3
 ```
 
+PyPI release version (0.14) [PyPI](https://pypi.org/project/RagSGE-chinese/)
+
+### 评测系统使用说明，请详见 [评测系统使用说明](1)
+### 评测系统介绍，请详见 [评测系统介绍](2)
+
+<a name="1"></a>
+## 评测系统使用说明
 
 本系统共有三个方法可以调用，分别是
 
@@ -160,7 +170,7 @@ scores = evaluate(question_list,contexts_list,answer_list,ground_truth_list)
 }
 ```
 
-
+<a name="2"></a>
 ## 评测系统介绍
 
 ### 1. 背景资料排序 (contexts)
