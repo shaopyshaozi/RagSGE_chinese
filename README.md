@@ -2,7 +2,7 @@
 
 Retrieval Augmented Generation for context Sortation, ground_truth Generation, and Evaluation (RagSGE)
 
-本系统是一个检索增强评估期，有如下几个功能：
+本系统是一个检索增强评估器，有如下几个功能：
 1. 针对检索器从数据库中搜索出来的内容排序进行验证，并返回一个系统认为的最优排序，可用于修改检索器参数
 2. 针对问题和背景资料生成一个标准答案（GPT-4生成），该标准答案可用于后序评估
 3. 使用开源的RAGAs评价系统，生成四个分数，分别是`Answer_relevancy`, `Faithfulness`, `Context_recall`, `Context_precision`, 具体信息详见 [RAGAs使用指南](https://github.com/explodinggradients/ragas)
