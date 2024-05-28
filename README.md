@@ -28,8 +28,8 @@ scores = evaluate(question_list,contexts_list,answer_list,ground_truth_list)    
 
 PyPI release version (0.14) [PyPI](https://pypi.org/project/RagSGE-chinese/)
 
-### 评测系统使用说明，请详见 [评测系统使用说明](1)
-### 评测系统介绍，请详见 [评测系统介绍](2)
+### 评测系统使用说明，请详见 [评测系统使用说明](#1)
+### 评测系统介绍，请详见 [评测系统介绍](#2)
 
 <a name="1"></a>
 ## 评测系统使用说明
